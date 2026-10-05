@@ -1,0 +1,27 @@
+{
+  "name": "Kurs Python i AI",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    }
+  },
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "postCreateCommand": "python3 -m venv .venv && .venv/bin/python -m pip install --no-cache-dir -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+        "jupyter.notebookFileRoot": "${workspaceFolder}",
+        "files.autoSave": "afterDelay"
+      }
+    }
+  }
+}
