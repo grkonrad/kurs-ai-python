@@ -1,21 +1,17 @@
-# Dane demonstracyjne LPBF
+# Dane do zajęć nr 1 — koszyk zakupów
 
-Dwanaście rekordów utworzonych na potrzeby nauki Pythona. **Dane są sztuczne.** Nie stanowią zbioru 256 próbek prowadzącego ani fizycznie zwalidowanego modelu procesu.
+`zakupy.csv` zawiera **5 fikcyjnych pozycji i 3 kolumny**, bez danych osobowych.
+Ceny są przykładowe, nie są aktualną ofertą sklepu. Każdy produkt liczony jest na sztuki.
 
-| Kolumna | Znaczenie | Jednostka |
+| Kolumna | Znaczenie | Przykład |
 |---|---|---|
-| sample_id | Unikalny identyfikator rekordu | — |
-| P_W | Moc lasera | W |
-| v_mm_s | Prędkość skanowania | mm/s |
-| h_mm | Odstęp ścieżek | mm |
-| t_mm | Założona grubość warstwy | mm |
-| porosity_pct | Wartość demonstracyjna porowatości | % |
-| source | DEMO_SYNTHETIC — pochodzenie demonstracyjne | tekst |
+| produkt | Nazwa produktu | Mleko |
+| liczba_sztuk | Ile sztuk kupujemy | 2 |
+| cena_za_sztuke_zl | Cena jednej sztuki w złotych | 3.20 |
 
-CSV: UTF-8, separator przecinek, kropka dziesiętna. Puste pole oznacza brak danych. Wartość 0.50% odpowiada udziałowi 0.005. W polu liczbowym nie ma znaku procenta.
+Plik używa kodowania UTF-8, przecinka do rozdzielania kolumn i kropki dziesiętnej.
+Pierwszy wiersz jest nagłówkiem. Pięć kolejnych wierszy to dane.
 
-Grubość 0.04 mm jest założeniem ćwiczenia. S11 nie ma wyniku porowatości, a S12 zawiera zerową prędkość. Te dwa problemy są celowe. Surowego pliku nie nadpisujemy. Wyłączenia dokumentujemy w osobnej tabeli.
-
-Wyliczane wskaźniki: `E_J_mm3 = P_W / (v_mm_s * h_mm * t_mm)` i `Q_mm3_s = v_mm_s * h_mm * t_mm`. Q pomija nakładanie warstw i inne przerwy. E nie jest samodzielnym modelem porowatości. Progi 0.50%, 0.40% i 0.20% wybrano dydaktycznie.
-
-Po otrzymaniu danych rzeczywistych należy ponownie sprawdzić schemat kolumn, zakresy, jednostki, identyfikatory i definicję odpowiedzi. Nie wolno traktować rozwiązania wzorcowego jako zwalidowanego narzędzia do kwalifikacji procesu.
+Notatnik tworzy w pamięci czwartą kolumnę `koszt_zl` (liczba sztuk × cena).
+Nie nadpisuje CSV. Koszty pozycji: 5.50, 6.40, 4.50, 4.80, 8.40 zł. Suma: **29.60 zł**.
+Wykres przedstawia koszt całej pozycji, a nie cenę jednej sztuki.
