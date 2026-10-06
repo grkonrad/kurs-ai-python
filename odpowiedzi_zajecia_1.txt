@@ -1,0 +1,77 @@
+# ZAJĘCIA NR 1 — PODSUMOWANIE I TEST
+# Uzupełnij pola po dwukropku. Nie zmieniaj nazw pól ani wartości WERSJA.
+# W P1–P6 wpisz jedną literę A, B, C lub D. W P7–P10 wpisz samą liczbę.
+# Możesz korzystać z notebooka i wyników własnych obliczeń. Odpowiedz samodzielnie.
+# Każde pytanie jest warte 1 punkt; łącznie 10 punktów.
+# Liczby dziesiętne możesz zapisać z przecinkiem albo kropką.
+# Statusy kont i UWAGI nie są punktowane. Nie wpisuj haseł ani danych logowania.
+# Zapisz plik (File > Save), pobierz (Download) i oddaj ten plik .txt w Moodle.
+# Nie oddawaj pustego formularza, pliku .py, obrazu ani ZIP-a.
+
+WERSJA: ZAJECIA_1_V1
+NUMER_INDEKSU:
+GITHUB:
+EDUCATION:
+COPILOT:
+UWAGI:
+
+# GITHUB: nazwa użytkownika albo „brak — opis w UWAGI”.
+# EDUCATION: np. złożony / zaakceptowany / do uzupełnienia / przeszkoda.
+# COPILOT: np. dostępny / oczekuję / przeszkoda.
+# UWAGI: jedno zdanie o problemie lub o tym, co było niejasne; ewentualnie „brak”.
+
+# P1. Który plik zawiera wejściową tabelę produktów i cen?
+# A. zakupy.csv
+# B. zakupy.py
+# C. wykres_zakupow.png
+# D. requirements.txt
+P1:
+
+# P2. Gdzie wykonuje się kod Pythona w naszym GitHub Codespaces?
+# A. W pliku PDF zapisanym na komputerze w sali.
+# B. W przeglądarce, bez żadnego środowiska Python.
+# C. W środowisku na zdalnym komputerze Codespaces.
+# D. Na serwerze Moodle po przesłaniu odpowiedzi.
+P2:
+
+# P3. W którym miejscu wpisujesz własne objaśnienie bez tworzenia programu?
+# A. W polu wyniku pod komórką kodu.
+# B. W komórce Markdown otwartej do edycji.
+# C. W polu wyboru kernela.
+# D. W pasku adresu przeglądarki.
+P3:
+
+# P4. Co robi Restart Kernel w tym ćwiczeniu?
+# A. Usuwa plik zakupy.csv z dysku.
+# B. Wysyła notebook do repozytorium GitHub.
+# C. Automatycznie przelicza wszystkie komórki od początku.
+# D. Uruchamia ponownie jądro i usuwa robocze zmienne z jego pamięci.
+P4:
+
+# P5. Co robi zwykłe File > Save w notebooku otwartym w Codespaces?
+# A. Przesyła zadanie do Moodle.
+# B. Wykonuje wszystkie komórki kodu.
+# C. Zapisuje notebook na dysku Codespace, bez automatycznego commit i push.
+# D. Zatrzymuje działanie Codespace.
+P5:
+
+# P6. Zapisałeś specyfikację programu w komórce Markdown. Co dalej,
+# jeśli na następnych zajęciach chcesz poprosić agenta o napisanie kodu?
+# A. Wskaż mu tę komórkę lub notebook i wyślij polecenie realizacji specyfikacji.
+# B. Poczekaj; samo zapisanie Markdown zawsze uruchamia agenta.
+# C. Zmień rozszerzenie zakupy.csv na .png.
+# D. Wpisz opis do pola wyniku pod wykresem.
+P6:
+
+# P7. Ile rekordów produktów zawiera wejściowy zakupy.csv, bez nagłówka?
+P7:
+
+# P8. Ile kolumn danych zawiera wejściowy zakupy.csv, przed obliczeniami?
+# Nie licz indeksu tabeli ani kolumny kosztu dodanej w pamięci.
+P8:
+
+# P9. Ile złotych kosztują łącznie wszystkie sztuki Mleka w tym koszyku?
+P9:
+
+# P10. Ile złotych wynosi suma całego koszyka po uruchomieniu notebooka?
+P10:
