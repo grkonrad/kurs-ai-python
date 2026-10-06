@@ -1,5 +1,0 @@
-Zajęcia nr 1 — test środowiska
-Dane: zakupy.csv
-Liczba pozycji: 5
-Suma zakupów: 29.6 zł
-Wygenerowany obraz: wykres_zakupow.png
